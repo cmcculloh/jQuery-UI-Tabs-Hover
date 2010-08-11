@@ -3,6 +3,6 @@ $.extend( $.ui.tabs.prototype, {
 		var self = this,
 			o = this.options;
 
-		self.element.find("li.ui-tabs-nav-item a").hover(hoverOn,hoverOff);
+		self.element.find("li a").hover(hoverOn,hoverOff);
 	}
 });
